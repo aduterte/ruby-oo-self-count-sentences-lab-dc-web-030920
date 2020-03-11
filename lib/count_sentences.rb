@@ -19,7 +19,8 @@ class String
     # new_string = self.split (/\.|\!|\?/)
    
     # new_string.reject { |x| x.empty? }.count
-    self.split(/\.|\!|\?/).reject { |x| x.empty? }.count
+    
+    self.split(/\.|\!|\?/).reject { |x| x.empty? }.count #combining and using self
     
   end
 end
